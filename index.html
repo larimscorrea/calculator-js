@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Scss</title>
+</head>
+
+<body>
+    <article class="container calculator">
+        <div class="calculator__header">
+            <div class="calculator__header--time"><img src="./assets/Time.png" all="" /></div>
+            <div class="calculator__header--icons">
+                <div class="calculator__header---icon-phone">
+                    <img src="./assets/phone-conection-path.png" all="" />
+                </div>
+                <div class="calculator__header--icon-wifi">
+                    <img src="./assets/Wifi.png" all="" />
+                </div>
+                <div class="calculator__header--icon-charge">
+                    <img src="./assets/Charge.png" all="" />
+                </div>
+            </div>
+        </div>
+
+        <div class="calculator__display">
+            <input type="text" class="calculator__display-input" value="" />
+            <div class="calculator__display-result"></div>
+        </div>
+        <div class="calculator__callback">
+            <img height="24px" width="24px" src="./assets/callback.png"
+                alt="ícone de seta fazendo um círculo imitando um despertador" />
+        </div>
+        <div class="calculator__buttons">
+            <div class="calculator__buttons-wrapper">
+                <button
+                    class="calculator__buttons--button calculator__buttons--button-background-red calculator__button--remove">C</button>
+                <button
+                    class="calculator__buttons--button calculator__buttons--button-color-green calculator__buttons--operator">()</button>
+                <button
+                    class="calculator__buttons--button calculator__buttons--button-color-green calculator__buttons--operator">%</button>
+                <button
+                    class="calculator__buttons--button calculator__buttons--button-color-green calculator__buttons--operator">÷</button>
+            </div>
+            <div class="calculator__buttons-wrapper">
+                <button
+                    class="calculator__buttons--button calculator__buttons--number calculator__buttons--number">7</button>
+                <button
+                    class="calculator__buttons--button calculator__buttons--number calculator__buttons--number">8</button>
+                <button
+                    class="calculator__buttons--button calculator__buttons--number calculator__buttons--number">9</button>
+                <button
+                    class="calculator__buttons--button calculator__buttons--button-color-green calculator__buttons--operator">x</button>
+            </div>
+            <div class="calculator__buttons-wrapper">
+                <button
+                    class="calculator__buttons--button calculator__buttons--number calculator__buttons--number">4</button>
+                <button
+                    class="calculator__buttons--button calculator__buttons--number calculator__buttons--number">5</button>
+                <button
+                    class="calculator__buttons--button calculator__buttons--number calculator__buttons--number">6</button>
+                <button
+                    class="calculator__buttons--button calculator__buttons--button-color-green calculator__buttons--operator">-</button>
+            </div>
+            <div class="calculator__buttons-wrapper">
+                <button
+                    class="calculator__buttons--button calculator__buttons--number calculator__buttons--number">1</button>
+                <button
+                    class="calculator__buttons--button calculator__buttons--number calculator__buttons--number">2</button>
+                <button
+                    class="calculator__buttons--button calculator__buttons--number calculator__buttons--number">3</button>
+                <button
+                    class="calculator__buttons--button calculator__buttons--button-color-green calculator__buttons--operator">+</button>
+            </div>
+            <div class="calculator__buttons-wrapper">
+                <button class="calculator__buttons--button">+/-</button>
+                <button
+                    class="calculator__buttons--button calculator__buttons--number calculator__buttons--number">0</button>
+                <button class="calculator__buttons--button">.</button>
+                <button
+                    class="calculator__buttons--button calculator__buttons--button--color-grey calculator__buttons--button-background-green calculator__buttons--result">=</button>
+            </div>
+        </div>
+        <div class="footer"></div>
+
+    </article>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
